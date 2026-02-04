@@ -265,7 +265,7 @@ function App() {
       <div className="min-h-screen bg-gradient-to-br from-pink-200 via-red-200 to-pink-300 flex flex-col items-center justify-center p-4 relative overflow-hidden">
         {/* Background Music */}
         <audio ref={audioRef} loop preload="auto">
-          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+          <source src="/music/valentine.mp3" type="audio/mpeg" />
         </audio>
 
         {/* Music Toggle Button */}
